@@ -1,0 +1,152 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 1% 1%;
+  
+}
+.input:focus{
+
+    border:none;
+    outline: 1px solid blue;
+}
+.input3{
+     border: 1px solid red;
+     height: 30px;
+     border-radius: 4px;
+     padding: 6px;
+     width: 100%;
+    
+}
+.otpinput{
+  height: 36px;
+  border-radius: 4px;
+  width: 308px;
+  border: 1px solid #dbcece;
+}
+
+.otpinput:focus{
+  border: none;
+  outline: 1px solid blue;
+}
+.otpinput3{
+  border: 1px solid red;
+  height: 30px;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.otpinputdiv{
+ 
+  margin-bottom: 5px;
+}
+.otpbtn{
+    width: 100px;
+    border: none;
+    color: white;
+    background: #514b4b;
+    border-radius: 5px;
+}
+
+.errorcolor{
+    color:red;
+   
+}
+.errordiv{
+    height: 25px;
+}
+.input {
+  height: 36px;
+  border-radius: 4px;
+  padding: 6px;
+  border: 1px solid #dbcece;
+  width: 100%;
+  }
+
+  .showpassworddsignup{
+    position: absolute;
+    right: 5%;
+    top: 8%;
+    list-style: none;
+  }
+.mainfirst{
+    display: flex;
+    margin-top: 80px;
+}
+.leftpart{
+    background-color: white;
+    padding-top: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
+    color: white;
+   
+}
+.postbtn{
+    height: 40px;
+    width: 275px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.lapform{
+    padding: 4%;
+    width: 50%;
+}
+
+.rightpart{
+    background-color: white;
+    background-color: white;
+    width: 600px;
+  }
+  .img{
+    width: 10%;
+    height: 10%;
+  }
+  .imgcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgdiv{
+    justify-content: center;
+    display: flex;
+  }
+  .formcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inputdiv{
+    display: flex;
+    flex-direction: column;
+  }
+.logo{
+    width: 300px;
+    height: 300px;
+  }
+@media screen and (max-width: 780px) {
+   .mobileview{
+           display: block;
+   }
+
+   .mobileviewrleftpart{
+   
+    margin-bottom: -35%;
+    padding-bottom: 25px;
+    margin-top: 48px;
+    
+   }
+   .mobileviewmainfirst{
+    display: block;   
+   }
+   .mobileform{
+    padding: 4%;
+    width:85%;
+    
+   }
+  }
