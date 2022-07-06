@@ -88,7 +88,7 @@ const Formcontrol = () => {
       <div className="main mobileview">
         <div className="mainfirst mobileviewmainfirst">
           <div className="leftpart mobileviewrleftpart ">
-            <div style={{ width: "400px" }}>
+            <div style={{ width: "400px",marginLeft: "50px" }}>
               <label for="user">Choose a user </label>
 
               <select
